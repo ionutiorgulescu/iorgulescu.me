@@ -1,0 +1,203 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7231cee59ede4d54d86db8cd792d7035",
+    "packages": [
+        {
+            "name": "enzolutions/spress-plugin-google-analytics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enzolutions/Spress-plugin-google-analytics.git",
+                "reference": "3c0900ece4f23143d90ac0c67ce82f8c8a713f96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enzolutions/Spress-plugin-google-analytics/zipball/3c0900ece4f23143d90ac0c67ce82f8c8a713f96",
+                "reference": "3c0900ece4f23143d90ac0c67ce82f8c8a713f96",
+                "shasum": ""
+            },
+            "require": {
+                "yosymfony/spress-installer": "~2.0"
+            },
+            "type": "spress-plugin",
+            "extra": {
+                "spress_name": "Spress-plugin-google-analytics",
+                "spress_class": "SpressPlugins\\SpressGoogleAnalytics\\SpressGoogleAnalytics",
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SpressPlugins\\SpressGoogleAnalytics\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "enzo - Eduardo Garcia",
+                    "email": "enzo@enzolutions.com",
+                    "homepage": "http://enzolutions.com"
+                }
+            ],
+            "description": "Enable add Google Analytics Tracker in your Spress site",
+            "keywords": [
+                "analytics",
+                "plugin",
+                "seo",
+                "spress"
+            ],
+            "time": "2016-01-17T19:28:12+00:00"
+        },
+        {
+            "name": "mihaeu/html-formatter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mihaeu/html-formatter.git",
+                "reference": "a376177343ffe5484f8457f699237c1863b7cfd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mihaeu/html-formatter/zipball/a376177343ffe5484f8457f699237c1863b7cfd5",
+                "reference": "a376177343ffe5484f8457f699237c1863b7cfd5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mihaeu": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Haeuslmann",
+                    "email": "haeuslmann@gmail.com"
+                }
+            ],
+            "description": "HTML Formatter pritifies HTML content by applying proper intendation (no tidy, purification, etc.).",
+            "homepage": "https://github.com/mihaeu/html-formatter",
+            "keywords": [
+                "clean",
+                "formatter",
+                "html",
+                "pretty"
+            ],
+            "time": "2013-11-26T11:55:02+00:00"
+        },
+        {
+            "name": "rattrap/spress-html-beautifier",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rattrap/spress-html-beautifier.git",
+                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rattrap/spress-html-beautifier/zipball/ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
+                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
+                "shasum": ""
+            },
+            "require": {
+                "mihaeu/html-formatter": "1.*",
+                "spress/spress-installer": "2.0.*"
+            },
+            "type": "spress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leonard Mocanu",
+                    "email": "leonard@mocanu.me"
+                }
+            ],
+            "description": "Beautify your HTML",
+            "keywords": [
+                "plugin",
+                "spress"
+            ],
+            "time": "2016-04-23T20:47:16+00:00"
+        },
+        {
+            "name": "spress/spress-installer",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spress/Spress-installer.git",
+                "reference": "971031b2399ea72dd7fef68b7d413ab0161225c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spress/Spress-installer/zipball/971031b2399ea72dd7fef68b7d413ab0161225c2",
+                "reference": "971031b2399ea72dd7fef68b7d413ab0161225c2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "yosymfony/spress-installer": "self.version"
+            },
+            "require-dev": {
+                "composer/composer": "1.*",
+                "mockery/mockery": "0.9.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Yosymfony\\Spress\\Composer\\SpressPlugin",
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yosymfony\\Spress\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Victor Puertas",
+                    "email": "vpgugr@gmail.com",
+                    "homepage": "http://yosymfony.com"
+                }
+            ],
+            "description": "Installer for Spress addons",
+            "keywords": [
+                "installer",
+                "plugins",
+                "spress",
+                "themes"
+            ],
+            "time": "2016-01-02T13:24:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "enzolutions/spress-plugin-google-analytics": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
