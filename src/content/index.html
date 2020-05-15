@@ -10,6 +10,13 @@
 
 	<meta name="description" content="{{ page.description | default(site.description) }}" />
 	<meta name="keywords" content="{{ page.keywords | default(site.keywords) | join(',') }}" />
+
+	<meta property='og:title' content='Software developer' />
+	<meta property='og:image' content='{{ site.url }}/images/header-background.jpg' />
+	<meta property='og:description' content='Bucharest based software developer. Constantly experimenting with new technologies and techniques.
+I am very passionate about Domain-Driven Design, Object-oriented analysis and design, Clean Code,
+I like to play with Front-End Frameworks, to look for and find new ways to constantly improve my programming skills.' />
+
 	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 	<link rel="stylesheet" media="all" href="{{ site.url }}/css/main.css">
 	<link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
