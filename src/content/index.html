@@ -10,7 +10,7 @@
 
 	<meta name="description" content="{{ page.description | default(site.description) }}" />
 	<meta name="keywords" content="{{ page.keywords | default(site.keywords) | join(',') }}" />
-
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 	<link rel="stylesheet" media="all" href="{{ site.url }}/css/main.css">
 	<link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
 
@@ -39,6 +39,13 @@
 				<li>
 					<a href="https://twitter.com/{{ site.social_networks.twitter }}">
 						<i class="icon-twitter"></i>
+					</a>
+				</li>
+				{% endif %}
+				{% if site.social_networks.linkedin %}
+				<li>
+					<a href="https://linkedin.com/in/{{ site.social_networks.linkedin }}">
+						<span class="iconify" data-icon="icomoon-free:linkedin" data-inline="false"></span>
 					</a>
 				</li>
 				{% endif %}
