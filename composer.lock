@@ -58,16 +58,16 @@
         },
         {
             "name": "ionutiorgulescu/spress-html-beautifier",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ionutiorgulescu/spress-html-beautifier.git",
-                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c"
+                "reference": "dd4012cc6cc33f6be82502023348267a84d5092d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ionutiorgulescu/spress-html-beautifier/zipball/ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
-                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
+                "url": "https://api.github.com/repos/ionutiorgulescu/spress-html-beautifier/zipball/dd4012cc6cc33f6be82502023348267a84d5092d",
+                "reference": "dd4012cc6cc33f6be82502023348267a84d5092d",
                 "shasum": ""
             },
             "require": {
@@ -81,8 +81,8 @@
             ],
             "authors": [
                 {
-                    "name": "Leonard Mocanu",
-                    "email": "leonard@mocanu.me"
+                    "name": "Ionut Iorgulescu",
+                    "email": "ionut@iorgulescu.me"
                 }
             ],
             "description": "Beautify your HTML",
@@ -90,7 +90,7 @@
                 "plugin",
                 "spress"
             ],
-            "time": "2016-04-23T20:47:16+00:00"
+            "time": "2020-05-18T09:33:39+00:00"
         },
         {
             "name": "mihaeu/html-formatter",
