@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7231cee59ede4d54d86db8cd792d7035",
+    "content-hash": "1660fcfb54c85f7d57d2e17826c635e0",
     "packages": [
         {
             "name": "enzolutions/spress-plugin-google-analytics",
@@ -57,6 +57,42 @@
             "time": "2016-01-17T19:28:12+00:00"
         },
         {
+            "name": "ionutiorgulescu/spress-html-beautifier",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ionutiorgulescu/spress-html-beautifier.git",
+                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ionutiorgulescu/spress-html-beautifier/zipball/ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
+                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
+                "shasum": ""
+            },
+            "require": {
+                "mihaeu/html-formatter": "1.*",
+                "spress/spress-installer": "2.0.*"
+            },
+            "type": "spress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leonard Mocanu",
+                    "email": "leonard@mocanu.me"
+                }
+            ],
+            "description": "Beautify your HTML",
+            "keywords": [
+                "plugin",
+                "spress"
+            ],
+            "time": "2016-04-23T20:47:16+00:00"
+        },
+        {
             "name": "mihaeu/html-formatter",
             "version": "1.0.0",
             "source": {
@@ -95,42 +131,6 @@
                 "pretty"
             ],
             "time": "2013-11-26T11:55:02+00:00"
-        },
-        {
-            "name": "rattrap/spress-html-beautifier",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rattrap/spress-html-beautifier.git",
-                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rattrap/spress-html-beautifier/zipball/ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
-                "reference": "ff49a92bb17d2630189d16c5c5084e7d0cdd0e1c",
-                "shasum": ""
-            },
-            "require": {
-                "mihaeu/html-formatter": "1.*",
-                "spress/spress-installer": "2.0.*"
-            },
-            "type": "spress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Leonard Mocanu",
-                    "email": "leonard@mocanu.me"
-                }
-            ],
-            "description": "Beautify your HTML",
-            "keywords": [
-                "plugin",
-                "spress"
-            ],
-            "time": "2016-04-23T20:47:16+00:00"
         },
         {
             "name": "spress/spress-installer",
